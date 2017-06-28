@@ -13,7 +13,11 @@ public class Demo {
 		Gcd.main(new String[]{"10", "20"});
 
 		print("Part4. Sum of digits in the number.");
-		SumOfDigits.main(new String[]{"-50","541","123"});
+		SumOfDigits.main(new String[]{"50","541","123"});
+
+		print("Part5. Determining the index of the column, the column by the index." );
+		Spreadsheet.main(new String[]{"A","B","Z","AA","AZ","BA","ZZ","AAA"});
+
 	}
 
 	private static void print(String task) {
